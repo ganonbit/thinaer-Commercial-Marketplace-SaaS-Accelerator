@@ -42,7 +42,7 @@ public class Program
             })
             .ConfigureWebHostDefaults(webBuilder =>
             {
-                webBuilder.UseUrls("https://*:5001", "http://*:5000");
+                webBuilder.UseUrls("https://*:5003", "http://*:5002");
                 webBuilder.UseStartup<Startup>();
             });
 }
